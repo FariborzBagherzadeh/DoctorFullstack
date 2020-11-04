@@ -1,0 +1,17 @@
+.navli {
+  color: #1a3f4c !important;
+  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+  padding: 15px 25px 15px 25px !important;
+}
+.navli:hover {
+  color: #ffffff !important;
+  background-color: #e15b4c !important ;
+  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+}
+.nav {
+  direction: rtl;
+  font-size: 1.4em;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding: 0;
+}

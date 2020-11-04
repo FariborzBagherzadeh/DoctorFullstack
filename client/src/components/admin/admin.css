@@ -1,0 +1,42 @@
+table {
+  text-align: center;
+  width: 50% !important;
+  margin-left: auto;
+  margin-right: auto;
+  direction: ltr !important;
+  font-size: 1.2em;
+}
+.btn1 {
+  background-color: #4caf4f00; /* Green */
+  border: none;
+  cursor: default !important;
+}
+.form {
+  width: 50%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  direction: ltr !important;
+  text-align: right !important;
+}
+
+.svgremove {
+  color: antiquewhite;
+  transform: scale(1.1) !important;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.svgremove:hover {
+  color: crimson;
+  transition: color 0.3s ease;
+}
+.btn-submit1 {
+  border: none;
+  box-shadow: none;
+  background-color: rgba(255, 0, 0, 0);
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  outline: none !important;
+ 
+}
+

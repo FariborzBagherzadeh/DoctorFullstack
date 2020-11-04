@@ -1,0 +1,9 @@
+.footer h5 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
+  margin-top: 1%;
+}
+.footer {
+  background-color: #b3cde0;
+  color: #03396c;
+  text-align: center;
+}

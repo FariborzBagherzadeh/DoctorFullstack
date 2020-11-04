@@ -1,0 +1,23 @@
+.slider img {
+  width: 100% !important;
+  max-height: 600px !important;
+  min-height: 400px;
+  object-fit: cover !important;
+  filter: brightness(70%);
+  animation-name: zoom;
+  animation-duration: 20s;
+}
+.slider-text {
+  margin-bottom: 15%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.slider-text h3,.slider-text h1{
+  font-size: 6vh !important;
+}
+
+@keyframes zoom {
+  from {transform: scale(1);}
+  to {transform: scale(1.5);}
+}
